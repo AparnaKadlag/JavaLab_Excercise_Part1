@@ -1,2 +1,7 @@
-package RankingPoints;public class Main {
+package RankingPoints;
+
+public class Main {
+    public static void main(String[] args) {
+        
+    }
 }
