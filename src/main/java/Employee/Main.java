@@ -6,6 +6,9 @@ public class Main {
 
         //Take Input From User
         Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Name of employee = ");
+        String Name = sc.nextLine();
+
         System.out.println("Enter Work Hours Per Day = ");
         int workhours=sc.nextInt();
         System.out.println("Enter Hourly Salary = ");
@@ -17,6 +20,7 @@ public class Main {
             System.out.println("Please Enter Valid value");
         }else {
             employee.getInfo(workhours, salary);
+            System.out.println("Name of Employee = "+Name);
             System.out.println("Basic Salary = " + employee.computeBaseSalary());
             System.out.println("After Adding $10 to salary if its less than 500 = " + employee.addSal());
             System.out.println("After Adding $5 to salary if work hours greater than 6 = " + employee.addWork());

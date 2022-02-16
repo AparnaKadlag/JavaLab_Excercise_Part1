@@ -1,9 +1,11 @@
 package Employee;
 
 public class Employee {
+
     private int salary;
     private int Work_hours_per_day;
     private boolean basicCalculated;
+
 
     public void getInfo(int work_hours_per_day, int salary) {
             this.salary = salary;

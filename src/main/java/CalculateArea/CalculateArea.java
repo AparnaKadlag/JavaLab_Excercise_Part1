@@ -1,19 +1,28 @@
 package CalculateArea;
 
 public class CalculateArea {
-    private double RectangleArea;
+    public double RectangleArea;
+    public double RectanglePerimeter;
+
+    public double squareArea;
+    public double squarePerimeter;
+
+    public double circleArea;
+    public double circlePerimeter;
+
     private boolean RectangleCalculated =false;
     private boolean SquareCalcualted=false;
     private boolean CircleCalcualted=false;
+
 
     public void RectangePerimeterAndArea(double length, double width) {
         if(length<=0 && width<=0){
             throw new RuntimeException("Enter Valid Value");
         }
-        double  perimeter=2*(length+width);
+        RectanglePerimeter=2*(length+width);
         RectangleArea=length*width;
         System.out.println("Area Of Rectangle = "+RectangleArea);
-        System.out.println("Perimeter Of Rectangle = "+perimeter);
+        System.out.println("Perimeter Of Rectangle = "+RectanglePerimeter);
         RectangleCalculated=true;
     }
     public boolean isRectangleCalculated(){
@@ -25,10 +34,10 @@ public class CalculateArea {
         if(side<=0){
             throw new RuntimeException("Enter Valid Value");
         }
-        double  perimeter=4*side;
-        double  Area=side*side;
-        System.out.println("Area Of Square = "+Area);
-        System.out.println("Perimeter Of Sqaure = "+perimeter);
+        squarePerimeter=4*side;
+        squareArea=side*side;
+        System.out.println("Area Of Square = "+squareArea);
+        System.out.println("Perimeter Of Sqaure = "+squarePerimeter);
         SquareCalcualted=true;
     }
     public boolean isSquareCalcualted(){
@@ -41,10 +50,10 @@ public class CalculateArea {
         if(radius<=0){
             throw new RuntimeException("Enter Valid Value");
         }
-        double  perimeter=2 * Math.PI * radius;
-        double  Area=(radius*radius)*Math.PI;
-        System.out.println("Area Of circle = "+Area);
-        System.out.println("Perimeter Of circle = "+perimeter);
+        circlePerimeter=2 * Math.PI * radius;
+        circleArea=(radius*radius)*Math.PI;
+        System.out.println("Area Of circle = "+circleArea);
+        System.out.println("Perimeter Of circle = "+circlePerimeter);
         CircleCalcualted=true;
     }
     public boolean isCircleCalcualted(){

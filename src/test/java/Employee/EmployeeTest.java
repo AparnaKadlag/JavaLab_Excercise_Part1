@@ -16,9 +16,11 @@ public class EmployeeTest {
         Employee employee =new Employee();
         employee.getInfo(7,12);
         employee.computeBaseSalary();
+
         assertEquals(1680,employee.getSalary());
         employee.getInfo(5,10);
         employee.computeBaseSalary();
+
         assertEquals(1000,employee.getSalary());
         employee.getInfo(4,5);
         employee.computeBaseSalary();
