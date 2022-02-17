@@ -73,16 +73,16 @@ BasketballTeam.compare()
 
 
 #Football Team
-# returns 'updatePoints'
+returns 'updatePoints'
 footballTeam.updatePoints()
 
-# returns 'getTeamName'
+returns 'getTeamName'
 footballTeam.getTeamName()
 
-# returns 'getPoints'
+returns 'getPoints'
 footballTeam.getPoints()
 
-# returns 'updatePoints'
+returns 'updatePoints'
 footballTeam.compare()
 
 
