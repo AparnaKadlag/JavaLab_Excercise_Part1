@@ -53,7 +53,6 @@ public class Main {
             System.out.println("Team Name = "+basketballTeam1.get(i).getTeamName() +" , "+" Points = "+basketballTeam1.get(i).getPoints());
         }
 
-
         ArrayList<String[]> ResultArray = new ArrayList<>();
         //Load Result.csv
         try
@@ -62,16 +61,13 @@ public class Main {
             BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\246714\\IdeaProjects\\JavaLab_Excercise_Part1\\src\\main\\resources\\results.csv"));
             while ((line = br.readLine()) != null)
             {
-
                 String resultRecord[] = line.split(",");
                 ResultArray.add(resultRecord);
             }
-
             } catch (IOException e)
             {
                 e.printStackTrace();
             }
-
 
         for(int i=0;i<ResultArray.size();i++){
                         for(int k=0;k<footballTeam1.size();k++){
@@ -94,7 +90,6 @@ public class Main {
         for (int i=0; i<footballTeam1.size(); i++) {
             System.out.println("Team Name = "+footballTeam1.get(i).getTeamName() +" , "+" Points = "+footballTeam1.get(i).getPoints());
         }
-
 
         //Sorted Record of Football Team after adding points
         System.out.println("Standing of  After Updating Basketball teams Score= ");
