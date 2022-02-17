@@ -1,7 +1,7 @@
 # Employee
 
 Program to find Final and Basic Salary of Employee
-Run Main class To see the Output Employee Folder
+,Run Main class To see the Output from Employee Folder
 
 ## Usage
 
