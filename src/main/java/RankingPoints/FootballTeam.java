@@ -21,7 +21,6 @@ public class FootballTeam  implements Teams,Comparator<FootballTeam> {
         this.Points = points;
         this.Sponsor = sponsor;
     }
-
     @Override
     public String getTeamName() {
         return this.TeamName;
@@ -31,7 +30,7 @@ public class FootballTeam  implements Teams,Comparator<FootballTeam> {
     public void updatePoints(String Result) {
         if(Result.equals("Win")){
             this.Points +=3;
-        }else {
+        }else if (Result.equals("Drawn")){
             this.Points += 1;
         }
     }
@@ -41,7 +40,6 @@ public class FootballTeam  implements Teams,Comparator<FootballTeam> {
     public Integer getPoints() {
         return this.Points;
     }
-
     @Override
     public int compare(FootballTeam o1, FootballTeam o2) {
         return o1.getPoints()-o2.getPoints();

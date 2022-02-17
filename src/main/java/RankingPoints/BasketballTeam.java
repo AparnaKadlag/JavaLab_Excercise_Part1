@@ -42,7 +42,6 @@ public class BasketballTeam implements Teams,Comparator<BasketballTeam>{
         return this.Points;
     }
 
-
     @Override
     public int compare(BasketballTeam o1, BasketballTeam o2) {
         return o1.getPoints()-o2.getPoints();

@@ -1,6 +1,7 @@
 package CalculateArea;
 
 public class CalculateArea {
+
     public double RectangleArea;
     public double RectanglePerimeter;
 
@@ -15,6 +16,7 @@ public class CalculateArea {
     private boolean CircleCalcualted=false;
 
 
+    //Calculate the Area and Perimeter of Rectangle
     public void RectangePerimeterAndArea(double length, double width) {
         if(length<=0 && width<=0){
             throw new RuntimeException("Enter Valid Value");
@@ -25,11 +27,14 @@ public class CalculateArea {
         System.out.println("Perimeter Of Rectangle = "+RectanglePerimeter);
         RectangleCalculated=true;
     }
+    //check wether Rectangle code is excuted or not
     public boolean isRectangleCalculated(){
         if(RectangleCalculated){
             return true;
         }return false;
     }
+
+    //Calculate the Area and Perimeter of Square
     public void sqaurePerimeterAndArea(double side) {
         if(side<=0){
             throw new RuntimeException("Enter Valid Value");
@@ -40,12 +45,16 @@ public class CalculateArea {
         System.out.println("Perimeter Of Sqaure = "+squarePerimeter);
         SquareCalcualted=true;
     }
+
+    //check wether Rectangle code is excuted or not
     public boolean isSquareCalcualted(){
         if(SquareCalcualted){
             return true;
         }return false;
     }
 
+
+    //check wether Area and Perimeter
     public void circlePerimeterAndArea(double radius) {
         if(radius<=0){
             throw new RuntimeException("Enter Valid Value");
@@ -56,6 +65,8 @@ public class CalculateArea {
         System.out.println("Perimeter Of circle = "+circlePerimeter);
         CircleCalcualted=true;
     }
+
+    //check wether Rectangle code is excuted or not
     public boolean isCircleCalcualted(){
         if(CircleCalcualted){
             return true;
