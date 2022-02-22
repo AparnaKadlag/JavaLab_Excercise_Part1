@@ -38,7 +38,7 @@ public class Rectangle
     {
         return this.base*this.height;
     }
-    public void RectangePerimeterAndArea()
+    public void showResult()
     {
         System.out.println("Perimeter of Rectangle is: "+getArea());
         System.out.println("Area of Rectangle is: " +getPerimeter());

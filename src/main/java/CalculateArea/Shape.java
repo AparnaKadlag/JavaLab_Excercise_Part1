@@ -20,7 +20,7 @@ public class Shape {
         System.out.println("Enter length of Rectangle = ");
         int width =sc.nextInt();
         Rectangle r = new Rectangle(length, width);
-        r.RectangePerimeterAndArea();
+        r.showResult();
 
         //User Input for Square
         System.out.println("Enter side of sqaure = ");
