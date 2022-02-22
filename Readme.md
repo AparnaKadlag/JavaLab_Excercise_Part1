@@ -1,7 +1,7 @@
 # Employee
 
 Program to find Final and Basic Salary of Employee
-Run Main class To see the Output
+,Run Main class To see the Output from Employee Folder
 
 ## Usage
 
@@ -21,7 +21,7 @@ employee.addWork()
 # CalculateArea
 
 Program to Calculate the perimeter and the area of a square, a rectangle and a circle
-Run Main class To see the Output
+Run Main class To see the Output from CalculateArea folder
 
 ## Usage
 
@@ -39,15 +39,15 @@ CalculateArea.circlePerimeterAndArea()
 
 
 # Team
-Run Main class To see the Output
-
 java
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-## program to manage the ranking points of different teams(BasketBall Team ann Football Team)
+program to manage the ranking points of different teams(BasketBall Team ann Football Team)
+Run Main class To see the Output from RankingPoint folder
+
 
 ## Features
 
