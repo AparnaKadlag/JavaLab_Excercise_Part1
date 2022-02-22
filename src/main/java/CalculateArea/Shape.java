@@ -2,30 +2,31 @@ package CalculateArea;
 
 import java.util.Scanner;
 
-public class Main {
+public class Shape {
 
     public static void main(String[] args) {
-        CalculateArea calculateArea =new CalculateArea();
 
         //User input for radius
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter Radius = ");
         double radius1=sc.nextDouble();
-        calculateArea.circlePerimeterAndArea(radius1);
+        Circle c= new Circle(radius1);
+        c.showResult();
 
         //User input of parameter for Rectangle
         System.out.println("Enter length of Rectangle = ");
-        double length =sc.nextDouble();
+        int length =sc.nextInt();
 
         System.out.println("Enter length of Rectangle = ");
-        double width =sc.nextDouble();
-        calculateArea.RectangePerimeterAndArea(length,width);
-
+        int width =sc.nextInt();
+        Rectangle r = new Rectangle(length, width);
+        r.RectangePerimeterAndArea();
 
         //User Input for Square
         System.out.println("Enter side of sqaure = ");
         double side =sc.nextDouble();
-        calculateArea.sqaurePerimeterAndArea(side);
+        Square s = new Square(side);
+        s.showResult();
     }
 
 }

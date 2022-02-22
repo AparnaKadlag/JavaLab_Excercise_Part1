@@ -21,7 +21,7 @@ employee.addWork()
 # 2. CalculateArea
 
 Program to Calculate the perimeter and the area of a square, a rectangle and a circle
-Run Main class To see the Output from CalculateArea folder
+Run Shape class To see the Output from CalculateArea folder
 
 ## Usage
 
