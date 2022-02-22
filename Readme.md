@@ -1,4 +1,4 @@
-# Employee
+# 1.Employee
 
 Program to find Final and Basic Salary of Employee
 ,Run Main class To see the Output from Employee Folder
@@ -8,17 +8,17 @@ Program to find Final and Basic Salary of Employee
 java
 import java.util.Scanner; //In Main File 
 
-# returns 'computeBaseSalary'
+returns 'computeBaseSalary'
 employee.computeBaseSalary()
 
-# returns 'addSal' 
+returns 'addSal' 
 employee.addSal()
 
-# returns 'addWork'
+returns 'addWork'
 employee.addWork()
 
 
-# CalculateArea
+# 2. CalculateArea
 
 Program to Calculate the perimeter and the area of a square, a rectangle and a circle
 Run Main class To see the Output from CalculateArea folder
@@ -28,17 +28,16 @@ Run Main class To see the Output from CalculateArea folder
 java
 import java.util.Scanner; //In Main File
 
-# returns 'computeBaseSalary'
+returns 'computeBaseSalary'
 CalculateArea.RectangePerimeterAndArea()
 
-# returns 'sqaurePerimeterAndArea'
+returns 'sqaurePerimeterAndArea'
 CalculateArea.sqaurePerimeterAndArea()
-
-# returns 'circlePerimeterAndArea'
+returns 'circlePerimeterAndArea'
 CalculateArea.circlePerimeterAndArea()
 
 
-# Team
+# 3.Team
 java
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -59,31 +58,31 @@ Run Main class To see the Output from RankingPoint folder
 - Printed standing of Basketball teams (ordering by points);
 
 #BasketballTeam
-# returns 'updatePoints'
+returns 'updatePoints'
 BasketballTeam.updatePoints()
 
-# returns 'getTeamName'
+returns 'getTeamName'
 BasketballTeam.getTeamName()
 
-# returns 'getPoints'
+returns 'getPoints'
 BasketballTeam.getPoints()
 
-# returns 'compare'
+returns 'compare'
 BasketballTeam.compare()
 
 
 
 #Football Team
-# returns 'updatePoints'
+returns 'updatePoints'
 footballTeam.updatePoints()
 
-# returns 'getTeamName'
+returns 'getTeamName'
 footballTeam.getTeamName()
 
-# returns 'getPoints'
+returns 'getPoints'
 footballTeam.getPoints()
 
-# returns 'updatePoints'
+returns 'updatePoints'
 footballTeam.compare()
 
 
