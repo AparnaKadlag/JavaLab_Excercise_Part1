@@ -22,7 +22,7 @@ public class Circle extends Square
     @Override
     public void showResult() {
 
-        System.out.println("Perimeter of Circle is: "+getPerimeter());
-        System.out.println("Area of circle is: "+getArea());
+        System.out.println("Perimeter of Circle is="+getPerimeter());
+        System.out.println("Area of circle is= "+getArea());
     }
 }

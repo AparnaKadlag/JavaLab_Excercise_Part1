@@ -9,15 +9,6 @@ public class Square
     public Square(double length) {
         this.length = length;
     }
-
-    public double getLength() {
-        return length;
-    }
-
-    public void setLength(double length) {
-        this.length = length;
-    }
-
     public double getArea()
     {
         area=4*this.length;
@@ -31,7 +22,16 @@ public class Square
     }
     public void showResult()
     {
-        System.out.println("Perimeter of Circle is: "+getPerimeter());
-        System.out.println("Area of circle is: "+getArea());
+        System.out.println("Perimeter of Circle is= "+getPerimeter());
+        System.out.println("Area of circle is= "+getArea());
     }
+    public double getLength() {
+        return length;
+    }
+
+    public void setLength(double length) {
+        this.length = length;
+    }
+
+
 }

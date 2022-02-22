@@ -11,21 +11,6 @@ public class Rectangle
         this.height = height;
     }
 
-    public int getBase() {
-        return base;
-    }
-
-    public void setBase(int base) {
-        this.base = base;
-    }
-
-    public int getHeight() {
-        return height;
-    }
-
-    public void setHeight(int height) {
-        this.height = height;
-    }
 
     public int getArea()
     {
@@ -38,11 +23,29 @@ public class Rectangle
     {
         return this.base*this.height;
     }
+
     public void showResult()
     {
-        System.out.println("Perimeter of Rectangle is: "+getArea());
-        System.out.println("Area of Rectangle is: " +getPerimeter());
+        System.out.println("Perimeter of Rectangle is= "+getArea());
+        System.out.println("Area of Rectangle is= " +getPerimeter());
 
     }
+
+    public int getBase() {
+        return base;
+    }
+
+    public void setBase(int base) {
+        this.base = base;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+
 
 }
