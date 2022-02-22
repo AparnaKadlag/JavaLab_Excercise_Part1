@@ -76,6 +76,7 @@ public class Main {
                             String resultRecord[] = line.split(",");
                             ResultArray.add(resultRecord);
                         }
+                        System.out.println("File Loaded Successfully");
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
